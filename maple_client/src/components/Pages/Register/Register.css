@@ -1,0 +1,49 @@
+.register {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.registerInput {
+  padding: 5px;
+  width: 300px;
+  height: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  -webkit-transition: border-color ease-in-out 0.15s,
+    box-shadow ease-in-out 0.15s;
+  -moz-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -ms-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  outline: none;
+}
+
+.registerInput:focus {
+  border: 1px #66afe9 solid;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+
+.registerButton {
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 150px;
+  color: white;
+  background-color: #2780e3;
+}
+
+.registerButton:hover {
+  cursor: pointer;
+  background-color: #2877d1;
+}
+
+.registerButton:active {
+  cursor: pointer;
+  background-color: #2a6dbb;
+}

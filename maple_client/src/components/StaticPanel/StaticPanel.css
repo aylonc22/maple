@@ -1,0 +1,114 @@
+.StaticPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* border-right: solid 1px #1a6ecc; */
+  width: 30%;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 45%;
+  width: 80%;
+  border: 1px solid #e3e3e3;
+  border-radius: 2px;
+}
+
+.signIn {
+  align-self: flex-start;
+  font-size: 17px;
+  padding: 3px 25px;
+}
+
+.enter {
+  margin: 4px;
+  padding: 2px 4px;
+  height: 15px;
+  width: 60%;
+  border: 1px solid #ccc;
+  -webkit-transition: border-color ease-in-out 0.15s,
+    box-shadow ease-in-out 0.15s;
+  -moz-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -ms-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  outline: none;
+}
+
+.enter:focus {
+  border: 1px #66afe9 solid;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+
+.loginButton {
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  height: 40px;
+  width: 100px;
+  background-color: #2780e3;
+}
+
+.loginButton:hover {
+  cursor: pointer;
+  background-color: #2877d1;
+}
+
+.loginButton:active {
+  cursor: pointer;
+  background-color: #2a6dbb;
+}
+
+.forgotPassord {
+  margin-top: 25px;
+  font-size: 15px;
+  color: #42509e;
+}
+
+.forgotPassord:hover {
+  cursor: pointer;
+  color: #4a5ab6;
+}
+
+.forgotPassord:active {
+  cursor: pointer;
+  color: #4a5dc9;
+}
+
+.createAccount {
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #42509e;
+}
+
+.createAccount:hover {
+  cursor: pointer;
+  color: #4a5ab6;
+}
+
+.createAccount:active {
+  cursor: pointer;
+  color: #4a5dc9;
+}
+
+.title {
+  font-size: 25px;
+  width: 100%;
+  padding: 3px 0px;
+  border-bottom: solid 1px #e3e3e3;
+}
+
+.serverStatus {
+  display: flex;
+}
+
+.offline {
+  color: red;
+}

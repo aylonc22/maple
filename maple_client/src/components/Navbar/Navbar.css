@@ -1,0 +1,19 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: solid 1px #1a6ecc;
+  background-color: #0872eb;
+}
+
+.link:first-child {
+  margin-left: 0px;
+  font-size: 30px;
+}
+
+.link {
+  margin-left: 20px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
